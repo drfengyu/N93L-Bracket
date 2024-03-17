@@ -1,0 +1,3 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result
+2024-03-02 16:29:48,U_Bracket,FM7H1N000260000224,H-76HO-SMA40-2200-A-00003,2024-03-02 16:27:56,2024-03-02 16:28:03,2024-03-02 16:28:23,2024-03-02 16:28:31,7,20,OK-success,PASS
+2024-03-02 16:40:32,U_Bracket,FM7H1N000260000224,H-76HO-SMA40-2200-A-00003,2024-03-02 16:39:50,2024-03-02 16:39:57,2024-03-02 16:40:17,2024-03-02 16:40:25,7,20,OK-success,PASS

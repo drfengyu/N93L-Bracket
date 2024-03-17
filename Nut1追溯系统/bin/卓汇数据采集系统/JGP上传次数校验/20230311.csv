@@ -1,0 +1,13 @@
+记录时间,SN,返回结果,异常信息
+2023-03-11 13:38:44,FM7GS8000CN00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 13:38:56,FM7GS9000GA00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 13:39:33,FM7GS9000PQ00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 13:40:14,FM7GSC000SE00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 13:40:32,FM7GS40003B00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 13:41:16,FM7GS50002C00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 21:26:19,FM7GS9000ME00004RT,{"status":true,"msg":[{"pass":1,"fail":0}]},
+2023-03-11 21:26:30,FM7GSC000YP00004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 21:27:08,FM7GRU0005900004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 21:27:19,FM7GS6000E000004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 21:27:29,FM7GSD0003700004RT,{"status":false,"msg":"no data found!"},
+2023-03-11 21:27:45,FM7GSB0018U00004RT,{"status":false,"msg":"no data found!"},

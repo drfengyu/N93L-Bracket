@@ -1,0 +1,4 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result
+2024-03-09 00:10:41,Bracket,,BN-AAF-A024-000012,2024-3-9 0:10:13,2024-3-9 0:10:13,2024-3-9 0:10:23,2024-3-9 0:10:37,1,1,1,1
+2024-03-09 00:11:35,Bracket,,BN-AAF-A024-000011,2024-3-9 0:11:7,2024-3-9 0:11:7,2024-3-9 0:11:17,2024-3-9 0:11:31,1,1,1,1
+2024-03-09 00:12:19,Bracket,,BN-AAF-A024-000012,2024-3-9 0:11:51,2024-3-9 0:11:51,2024-3-9 0:12:0,2024-3-9 0:12:15,1,1,1,1

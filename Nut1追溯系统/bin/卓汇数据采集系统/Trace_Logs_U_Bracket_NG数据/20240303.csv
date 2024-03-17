@@ -1,0 +1,5 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result,正焊-焊前结果,正焊-获参结果,侧焊-焊前结果,侧焊-获参结果
+2024-03-03 16:22:16,U_Bracket,,BN-A-A4-0009,2024-03-03 15:04:28,2024-03-03 15:04:28,2024-03-03 15:04:47,2024-03-03 15:46:42,Welding data acquire NG,NG-Trace发送失败,fail
+2024-03-03 16:34:41,U_Bracket,,BN-AAF-A024-000006,2024-03-03 16:34:04,2024-03-03 16:34:04,2024-03-03 16:34:25,2024-03-03 16:34:38,Welding data acquire NG,NG-Trace发送失败,fail
+2024-03-03 16:54:04,U_Bracket,FM7H0W0002T0000HUW,BN-AAF-A024-000011,2024-03-03 15:12:15,2024-03-03 15:12:15,2024-03-03 15:12:22,2024-03-03 16:53:16,Welding data acquire NG,NG-Trace发送失败,fail
+2024-03-03 17:00:05,U_Bracket,FM7H0V000DK0000HUW,BN-AAF-A024-000008,2024-03-03 16:59:46,2024-03-03 16:59:46,2024-03-03 16:59:53,2024-03-03 17:00:00,Welding data acquire NG,NG-Trace发送失败,fail

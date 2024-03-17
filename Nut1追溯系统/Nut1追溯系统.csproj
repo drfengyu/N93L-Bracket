@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>卓汇数据追溯系统</RootNamespace>
+    <AssemblyName>卓汇数据追溯系统</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\卓汇数据采集系统\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon-20191009024146132.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="M2Mqtt.Net, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\卓汇数据采集系统\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbnormalFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbnormalFrm.Designer.cs">
+      <DependentUpon>AbnormalFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsyncTcpClient.cs" />
+    <Compile Include="AsyncTcpServer.cs" />
+    <Compile Include="BailCilent.cs" />
+    <Compile Include="BAilData.cs" />
+    <Compile Include="ClearOverdueFile.cs" />
+    <Compile Include="ConfigHelper\Gy.cs" />
+    <Compile Include="ConfigHelper\GyApiReturn.cs" />
+    <Compile Include="ConfigHelper\MaterialModel.cs" />
+    <Compile Include="ConfigHelper\MD5Helper.cs" />
+    <Compile Include="ConfigHelper\SearchModel.cs" />
+    <Compile Include="ConfigHelper\SearchTextBox.xaml.cs">
+      <DependentUpon>SearchTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigHelper\ControlAttachProperty.cs" />
+    <Compile Include="DataStatisticsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataStatisticsFrm.Designer.cs">
+      <DependentUpon>DataStatisticsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorData.cs" />
+    <Compile Include="FiveQData.cs" />
+    <Compile Include="Frm_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Update.Designer.cs">
+      <DependentUpon>Frm_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetCount.cs" />
+    <Compile Include="GetSNData.cs" />
+    <Compile Include="GetTestResult.cs" />
+    <Compile Include="GetUserInfo.cs" />
+    <Compile Include="HansData_U_Bracket.cs" />
+    <Compile Include="HelpFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpFrm.Designer.cs">
+      <DependentUpon>HelpFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeFrm.Designer.cs">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDCard.cs" />
+    <Compile Include="IniOperation.cs" />
+    <Compile Include="IniProductFile.cs" />
+    <Compile Include="IniProductFile2.cs" />
+    <Compile Include="IOMonitorFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOMonitorFrm.Designer.cs">
+      <DependentUpon>IOMonitorFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IQCSystemDATA.cs" />
+    <Compile Include="JPRequestData.cs" />
+    <Compile Include="JPRespondData.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MachineFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MachineFrm.Designer.cs">
+      <DependentUpon>MachineFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="ManualFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManualFrm.Designer.cs">
+      <DependentUpon>ManualFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Melsoft_PLC_TCP1.cs" />
+    <Compile Include="Melsoft_PLC_TCP2.cs" />
+    <Compile Include="MESRequestData.cs" />
+    <Compile Include="MESRequestURL.cs" />
+    <Compile Include="MESRespondData.cs" />
+    <Compile Include="MESRespondURL.cs" />
+    <Compile Include="Models\Laseripqc.cs" />
+    <Compile Include="ModuleData.cs" />
+    <Compile Include="OEEData.cs" />
+    <Compile Include="OEE_Data.cs" />
+    <Compile Include="OEE_DownTime.cs" />
+    <Compile Include="OEE_DownTime_Log.cs" />
+    <Compile Include="OEE_MaterielData.cs" />
+    <Compile Include="PartControlFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartControlFrm.Designer.cs">
+      <DependentUpon>PartControlFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassWordFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassWordFrm.Designer.cs">
+      <DependentUpon>PassWordFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDCA_Data.cs" />
+    <Compile Include="Phase.cs" />
+    <Compile Include="PLCDataName.cs" />
+    <Compile Include="PqStatus.cs" />
+    <Compile Include="ProcessControlData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestAPI.cs" />
+    <Compile Include="RequestAPI2.cs" />
+    <Compile Include="RequestAPI3.cs" />
+    <Compile Include="Respond.cs" />
+    <Compile Include="SettingFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingFrm.Designer.cs">
+      <DependentUpon>SettingFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLServer.cs" />
+    <Compile Include="TraceMesRequest_la.cs" />
+    <Compile Include="TraceMesRequest_ua.cs" />
+    <Compile Include="TraceRespondID.cs" />
+    <Compile Include="Txt.cs" />
+    <Compile Include="UserLoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLoginFrm.Designer.cs">
+      <DependentUpon>UserLoginFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AbnormalFrm.resx">
+      <DependentUpon>AbnormalFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataStatisticsFrm.resx">
+      <DependentUpon>DataStatisticsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Update.resx">
+      <DependentUpon>Frm_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpFrm.resx">
+      <DependentUpon>HelpFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeFrm.resx">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOMonitorFrm.resx">
+      <DependentUpon>IOMonitorFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MachineFrm.resx">
+      <DependentUpon>MachineFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualFrm.resx">
+      <DependentUpon>ManualFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartControlFrm.resx">
+      <DependentUpon>PartControlFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassWordFrm.resx">
+      <DependentUpon>PassWordFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingFrm.resx">
+      <DependentUpon>SettingFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginFrm.resx">
+      <DependentUpon>UserLoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bitbug_favicon.ico" />
+    <Content Include="favicon-20191009024146132.ico" />
+    <Content Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ConfigHelper\SearchTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlcComm\PlcComm.csproj">
+      <Project>{9cfae265-8084-42ce-97b2-5e8c38baeeba}</Project>
+      <Name>PlcComm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vision\Vision.csproj">
+      <Project>{eef84b6e-ad88-408f-927b-c73cb408753c}</Project>
+      <Name>Vision</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.6.4\build\Fody.targets" Condition="Exists('..\packages\Fody.6.6.4\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.6.4\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.6.4\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

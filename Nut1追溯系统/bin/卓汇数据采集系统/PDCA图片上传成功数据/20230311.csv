@@ -1,0 +1,13 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result
+2023-03-11 13:40:43,U-Bracket,FM7GS9000GA00004RT
+2023-03-11 13:41:26,U-Bracket,FM7GS9000PQ00004RT
+2023-03-11 13:41:42,U-Bracket,FM7GS8000CN00004RT
+2023-03-11 13:42:02,U-Bracket,FM7GSC000SE00004RT
+2023-03-11 13:42:20,U-Bracket,FM7GS40003B00004RT
+2023-03-11 13:42:35,U-Bracket,FM7GS50002C00004RT
+2023-03-11 21:27:31,U-Bracket,FM7GS9000ME00004RT
+2023-03-11 21:27:57,U-Bracket,FM7GRU0005900004RT
+2023-03-11 21:28:19,U-Bracket,FM7GS6000E000004RT
+2023-03-11 21:28:42,U-Bracket,FM7GSD0003700004RT
+2023-03-11 21:29:05,U-Bracket,FM7GSB0018U00004RT
+2023-03-11 21:30:18,U-Bracket,FM7GSC000YP00004RT

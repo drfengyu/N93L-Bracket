@@ -1,0 +1,13 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result
+2023-03-06 09:23:20,,FM7GSL000UC00004RT,,,,,,,,前站校验
+2023-03-06 09:23:31,,FM7GSD0003400004RT,,,,,,,,前站校验
+2023-03-06 09:25:27,,FM7GS50001200004RT,,,,,,,,前站校验
+2023-03-06 09:25:38,,FM7GS6000BW00004RT,,,,,,,,前站校验
+2023-03-06 09:25:50,,FM7GSL0006G00004RT,,,,,,,,前站校验
+2023-03-06 09:26:04,,FM7GS20003T00004RT,,,,,,,,前站校验
+2023-03-06 21:21:52,,FM7GS30005G00004RT,,,,,,,,前站校验
+2023-03-06 21:22:01,,FM7GS2000A200004RT,,,,,,,,前站校验
+2023-03-06 21:22:11,,FM7GS9000FC00004RT,,,,,,,,前站校验
+2023-03-06 21:22:42,,FM7GSL0007300004RT,,,,,,,,前站校验
+2023-03-06 21:25:33,,FM7GRU0004Z00004RT,,,,,,,,前站校验
+2023-03-06 21:30:31,,FM7GSD0003N00004RT,,,,,,,,前站校验

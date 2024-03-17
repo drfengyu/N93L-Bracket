@@ -1,0 +1,149 @@
+2024-02-04 10:46:31: 读取参数成功
+2024-02-04 10:46:31: 已连接PLC
+2024-02-04 10:46:46: 导入报警信息表成功  279
+2024-02-04 10:46:46: 导入PLC参数信息表成功
+2024-02-04 10:46:46: MAC_mini配置信息校验异常
+2024-02-04 10:48:13: 读取参数成功
+2024-02-04 10:48:13: 已连接PLC
+2024-02-04 10:48:27: 导入报警信息表成功  279
+2024-02-04 10:48:27: 导入PLC参数信息表成功
+2024-02-04 10:49:07: 与MacMini断开连接
+2024-02-04 10:49:07: MAC_mini配置信息校验异常
+2024-02-04 10:49:47: OEE_DT:{"guid":"5e59dca6-610a-4022-99de-48d2ea160739","EMT":"","PoorNum":"0","TotalNum":"0",  "Status":"6","ErrorCode":"10010001","EventTime":"2024-02-04 10:49:47","ModuleCode":"","ClientPcName":"DESKTOP-MV9S0C1","MAC":"","IP":""},OEELog
+2024-02-04 10:49:50: 读取参数成功
+2024-02-04 10:49:50: 已连接PLC
+2024-02-04 10:50:03: 导入报警信息表成功  279
+2024-02-04 10:50:03: 导入PLC参数信息表成功
+2024-02-04 10:51:39: 读取参数成功
+2024-02-04 10:51:39: 已连接PLC
+2024-02-04 10:51:51: 导入报警信息表成功  279
+2024-02-04 10:51:51: 导入PLC参数信息表成功
+2024-02-04 10:51:53: 与MacMini断开连接
+2024-02-04 10:51:53: MAC_mini配置信息校验异常
+2024-02-04 10:56:43: 读取参数成功
+2024-02-04 10:56:43: 已连接PLC
+2024-02-04 10:56:57: 导入报警信息表成功  279
+2024-02-04 10:56:57: 导入PLC参数信息表成功
+2024-02-04 10:56:57: MAC_mini配置信息校验异常
+2024-02-04 15:41:39: OEE_DT:{"guid":"49b72749-333c-4f72-859b-7aa3a36f9f6f","EMT":"","PoorNum":"0","TotalNum":"0",  "Status":"6","ErrorCode":"10010001","EventTime":"2024-02-04 15:41:39","ModuleCode":"","ClientPcName":"DESKTOP-MV9S0C1","MAC":"","IP":""},OEELog
+2024-02-04 15:42:47: 读取参数成功
+2024-02-04 15:42:47: 已连接PLC
+2024-02-04 15:43:01: 导入报警信息表成功  329
+2024-02-04 15:43:01: 导入PLC参数信息表成功
+2024-02-04 15:43:01: MAC_mini配置信息校验异常
+2024-02-04 15:46:33: 读取参数成功
+2024-02-04 15:46:33: 已连接PLC
+2024-02-04 15:46:48: 导入报警信息表成功  329
+2024-02-04 15:46:48: 导入PLC参数信息表成功
+2024-02-04 15:46:48: MAC_mini配置信息校验异常
+2024-02-04 15:50:19: 读取参数成功
+2024-02-04 15:50:19: 已连接PLC
+2024-02-04 15:50:33: 导入报警信息表成功  329
+2024-02-04 15:50:33: 导入PLC参数信息表成功
+2024-02-04 15:50:33: MAC_mini配置信息校验异常
+2024-02-04 15:55:32: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 15:54:36","uut_stop":"2024-02-04 15:54:36"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"ab8c225536486a59b2f45399b0d18641","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 15:54:37","laser_stop_time":"2024-02-04 15:54:37"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 15:55:35: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 15:54:36","uut_stop":"2024-02-04 15:54:36"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"ab8c225536486a59b2f45399b0d18641","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 15:54:37","laser_stop_time":"2024-02-04 15:54:37"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{"error_1":"70010001_2024-01-24 14:31:35","error_2":"10010001_2024-01-24 17:39:16","error_3":"10010001_2024-01-24 18:28:02","error_4":"10010001_2024-01-25 14:45:55","error_5":"10010001_2024-01-25 14:58:29","error_6":"10010001_2024-01-25 15:05:40","error_7":"10010001_2024-01-25 16:39:55","error_8":"10010001_2024-01-26 14:17:58","error_9":"10010001_2024-01-26 14:36:31","error_10":"10010001_2024-01-28 10:16:06","error_11":"10010001_2024-01-28 10:26:54","error_12":"10010001_2024-01-28 14:06:17","error_13":"10010001_2024-01-28 19:16:46","error_14":"10010001_2024-01-28 19:42:18","error_15":"10010001_2024-01-28 19:44:03","error_16":"10010001_2024-01-28 21:22:43","error_17":"10010001_2024-01-29 11:54:05","error_18":"10010001_2024-01-29 14:54:44","error_19":"10010001_2024-01-29 15:15:31","error_20":"10010001_2024-01-29 15:49:40","error_21":"10010001_2024-01-29 15:57:09","error_22":"10010001_2024-01-29 17:26:36","error_23":"10010001_2024-01-30 10:06:32","error_24":"10010001_2024-01-30 10:17:55","error_25":"10010001_2024-01-30 13:56:14","error_26":"10010001_2024-01-30 14:12:10","error_27":"10010001_2024-02-02 12:10:10","error_28":"10010001_2024-02-02 12:14:24","error_29":"10010001_2024-02-02 16:16:09","error_30":"10010001_2024-02-02 17:27:29","error_31":"10010001_2024-02-02 17:29:08","error_32":"10010001_2024-02-03 15:35:15","error_33":"10010001_2024-02-03 15:36:23","error_34":"10010001_2024-02-03 16:38:22","error_35":"10010001_2024-02-03 16:53:25","error_36":"10010001_2024-02-04 10:49:47","error_37":"10010001_2024-02-04 15:41:39"}}}
+2024-02-04 15:57:14: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 15:57:14","uut_stop":"2024-02-04 15:57:14"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"ab8c225536486a59b2f45399b0d18641","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 15:57:14","laser_stop_time":"2024-02-04 15:57:14"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 15:58:40: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 15:57:14","uut_stop":"2024-02-04 15:57:14"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"ab8c225536486a59b2f45399b0d18641","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 15:57:14","laser_stop_time":"2024-02-04 15:57:14"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:03:36: 读取参数成功
+2024-02-04 16:03:36: 已连接PLC
+2024-02-04 16:03:50: 导入报警信息表成功  329
+2024-02-04 16:03:50: 导入PLC参数信息表成功
+2024-02-04 16:03:50: MAC_mini配置信息校验异常
+2024-02-04 16:03:56: OEE手动上传失败，System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 卓汇数据追溯系统.HomeFrm.UploadAll(Object ob) 位置 E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\Nut1追溯系统\HomeFrm.cs:行号 852
+2024-02-04 16:04:47: OEE手动上传失败，System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 卓汇数据追溯系统.HomeFrm.UploadAll(Object ob) 位置 E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\Nut1追溯系统\HomeFrm.cs:行号 852
+2024-02-04 16:12:57: 读取参数成功
+2024-02-04 16:12:57: 已连接PLC
+2024-02-04 16:13:11: 导入报警信息表成功  329
+2024-02-04 16:13:11: 导入PLC参数信息表成功
+2024-02-04 16:13:11: MAC_mini配置信息校验异常
+2024-02-04 16:14:13: 读取参数成功
+2024-02-04 16:14:13: 已连接PLC
+2024-02-04 16:14:27: 导入报警信息表成功  329
+2024-02-04 16:14:27: 导入PLC参数信息表成功
+2024-02-04 16:14:27: MAC_mini配置信息校验异常
+2024-02-04 16:16:12: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 16:16:12","uut_stop":"2024-02-04 16:16:12"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"220896b6b56635521e8e5d404a706818","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 16:16:12","laser_stop_time":"2024-02-04 16:16:12"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:19:25: 读取参数成功
+2024-02-04 16:19:25: 已连接PLC
+2024-02-04 16:19:39: 导入报警信息表成功  329
+2024-02-04 16:19:39: 导入PLC参数信息表成功
+2024-02-04 16:19:39: MAC_mini配置信息校验异常
+2024-02-04 16:21:09: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 16:21:09","uut_stop":"2024-02-04 16:21:09"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 16:21:09","laser_stop_time":"2024-02-04 16:21:09"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:21:54: {"serials":{"band":"FM7H1N000260000224+5"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224+5","uut_start":"2024-02-04 16:21:09","uut_stop":"2024-02-04 16:21:09"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224+5","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 16:21:09","laser_stop_time":"2024-02-04 16:21:09"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:26:13: 读取参数成功
+2024-02-04 16:26:13: 已连接PLC
+2024-02-04 16:26:27: 导入报警信息表成功  329
+2024-02-04 16:26:27: 导入PLC参数信息表成功
+2024-02-04 16:26:27: MAC_mini配置信息校验异常
+2024-02-04 16:27:56: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:27:56","uut_stop":"2024-02-04 16:27:56"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 16:27:56","laser_stop_time":"2024-02-04 16:27:56"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:28:27: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:27:56","uut_stop":"2024-02-04 16:27:56"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"","fixture_id":"H-76HO-SMA40-2200-A-00003","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.02","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"location1 CCD NG/location2 CCD NG","laser_start_time":"2024-02-04 16:27:56","laser_stop_time":"2024-02-04 16:27:56"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"},{}]},"items":{}}}
+2024-02-04 16:38:03: 读取参数成功
+2024-02-04 16:38:03: 已连接PLC
+2024-02-04 16:38:17: 导入报警信息表成功  329
+2024-02-04 16:38:17: 导入PLC参数信息表成功
+2024-02-04 16:38:17: MAC_mini配置信息校验异常
+2024-02-04 16:39:34: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:39:34","uut_stop":"2024-02-04 16:39:34"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 16:39:34","laser_stop_time":"2024-02-04 16:39:34"},"results":[{"result":"pass","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 16:47:47: 读取参数成功
+2024-02-04 16:47:47: 已连接PLC
+2024-02-04 16:48:01: 导入报警信息表成功  329
+2024-02-04 16:48:01: 导入PLC参数信息表成功
+2024-02-04 16:48:01: MAC_mini配置信息校验异常
+2024-02-04 16:49:33: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:49:18","uut_stop":"2024-02-04 16:49:18"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 16:49:18","laser_stop_time":"2024-02-04 16:49:18"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 16:51:48: 读取参数成功
+2024-02-04 16:51:48: 已连接PLC
+2024-02-04 16:52:02: 导入报警信息表成功  329
+2024-02-04 16:52:02: 导入PLC参数信息表成功
+2024-02-04 16:52:02: MAC_mini配置信息校验异常
+2024-02-04 16:53:46: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:53:36","uut_stop":"2024-02-04 16:53:36"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 16:53:36","laser_stop_time":"2024-02-04 16:53:36"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 16:54:12: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:53:36","uut_stop":"2024-02-04 16:53:36"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 16:53:36","laser_stop_time":"2024-02-04 16:53:36"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 16:56:15: 读取参数成功
+2024-02-04 16:56:15: 已连接PLC
+2024-02-04 16:56:29: 导入报警信息表成功  329
+2024-02-04 16:56:29: 导入PLC参数信息表成功
+2024-02-04 16:56:29: MAC_mini配置信息校验异常
+2024-02-04 16:58:01: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 16:57:58","uut_stop":"2024-02-04 16:57:58"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 16:57:58","laser_stop_time":"2024-02-04 16:57:58"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 16:59:09: 读取参数成功
+2024-02-04 16:59:09: 已连接PLC
+2024-02-04 16:59:22: 导入报警信息表成功  329
+2024-02-04 16:59:22: 导入PLC参数信息表成功
+2024-02-04 16:59:22: MAC_mini配置信息校验异常
+2024-02-04 17:00:43: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 17:00:39","uut_stop":"2024-02-04 17:00:39"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"STATION1635","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_STATION1635"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 17:00:39","laser_stop_time":"2024-02-04 17:00:39"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 17:01:08: {"serials":{"band":"FM7H1N000260000224"},"data":{"insight":{"test_attributes":{"test_result":"fail","unit_serial_number":"FM7H1N000260000224","uut_start":"2024-02-04 17:00:39","uut_stop":"2024-02-04 17:00:39"},"test_station_attributes":{"fixture_id":"H-76HO-SMA40-2200-A-00003","head_id":"1","line_id":"B01-2F-OQC01","software_name":"DEVELOPMENT31","software_version":"V1.15","station_id":"JACD_B01-2F-OQC01_93004_DEVELOPMENT31"},"uut_attributes":{"STATION_STRING":"{\"ActualCT \":\"10\",\"ScanCount \":\"1\"}","fixture_id":"XXXXX","pattern_type":"1","spot_size":"0.45","hatch":"0.05","swing_amplitude":"0.2","swing_freq":"10000","full_sn":"FM7H1N000260000224","tossing_item":"NG","laser_start_time":"2024-02-04 17:00:39","laser_stop_time":"2024-02-04 17:00:39"},"results":[{"result":"fail","test":"laser_sensor","units":"","value":"0"}]},"items":{}}}
+2024-02-04 17:03:11: 读取参数成功
+2024-02-04 17:03:11: 已连接PLC
+2024-02-04 17:03:25: 导入报警信息表成功  329
+2024-02-04 17:03:25: 导入PLC参数信息表成功
+2024-02-04 17:03:25: MAC_mini配置信息校验异常
+2024-02-04 17:03:35: OEE手动上传失败，System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 卓汇数据追溯系统.HomeFrm.UploadAll(Object ob) 位置 E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\Nut1追溯系统\HomeFrm.cs:行号 853
+2024-02-04 17:10:26: 读取参数成功
+2024-02-04 17:10:26: 已连接PLC
+2024-02-04 17:10:40: 导入报警信息表成功  329
+2024-02-04 17:10:40: 导入PLC参数信息表成功
+2024-02-04 17:10:40: MAC_mini配置信息校验异常
+2024-02-04 17:11:32: OEE手动上传失败，System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 卓汇数据追溯系统.HomeFrm.UploadAll(Object ob) 位置 E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\Nut1追溯系统\HomeFrm.cs:行号 853
+2024-02-04 17:11:47: 读取参数成功
+2024-02-04 17:11:47: 已连接PLC
+2024-02-04 17:12:01: 导入报警信息表成功  329
+2024-02-04 17:12:01: 导入PLC参数信息表成功
+2024-02-04 17:12:01: MAC_mini配置信息校验异常
+2024-02-04 17:14:36: 读取参数成功
+2024-02-04 17:14:36: 已连接PLC
+2024-02-04 17:14:50: 导入报警信息表成功  329
+2024-02-04 17:14:50: 导入PLC参数信息表成功
+2024-02-04 17:14:50: MAC_mini配置信息校验异常
+2024-02-04 17:15:17: OEE手动上传失败，System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 卓汇数据追溯系统.HomeFrm.UploadAll(Object ob) 位置 E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\Nut1追溯系统\HomeFrm.cs:行号 853
+2024-02-04 17:17:41: 读取参数成功
+2024-02-04 17:17:41: 已连接PLC
+2024-02-04 17:17:54: 导入报警信息表成功  329
+2024-02-04 17:17:54: 导入PLC参数信息表成功
+2024-02-04 17:17:54: MAC_mini配置信息校验异常

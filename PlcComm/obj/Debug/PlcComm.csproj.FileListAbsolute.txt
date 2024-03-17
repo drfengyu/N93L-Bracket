@@ -1,0 +1,12 @@
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\bin\Debug\PlcComm.dll
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\bin\Debug\PlcComm.pdb
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.csproj.AssemblyReference.cache
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.csproj.CoreCompileInputs.cache
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.dll
+E:\软件程序\N84L-Bracket追溯系统-20210509添加小料抛料\N84L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.pdb
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\bin\Debug\PlcComm.dll
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\bin\Debug\PlcComm.pdb
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.csproj.AssemblyReference.cache
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.csproj.CoreCompileInputs.cache
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.dll
+E:\软件程序\N93L-Bracket追溯系统-20210509添加小料抛料\N93L-Bracket追溯系统-20210509添加小料抛料\PlcComm\obj\Debug\PlcComm.pdb

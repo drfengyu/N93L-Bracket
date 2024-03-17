@@ -1,0 +1,2 @@
+Time,Procuct,full_sn,Fixture_id,Start_Time,Weld_start_time,Weld_stop_time,Stop_time,Weld_wait_ct,Actual_weld_ct, power_ll, power_ul, pattern_type, frequency, linear_speed, spot_size, pulse_energy,power, filling_pattern, hatch,status,Result
+2023-03-18 22:37:11,U_Bracket,FM7GT40002F00004RU,AN-AAF-A024-000006,2023-03-18 22:36:12,2023-03-18 22:37:34,2023-03-18 22:37:49,2023-03-18 22:37:49,82,15,OK-Õ¯¬Á“Ï≥£,PASS

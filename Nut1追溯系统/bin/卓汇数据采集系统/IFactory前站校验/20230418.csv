@@ -1,0 +1,3 @@
+记录时间,SN,返回结果,异常信息
+2023-04-18 10:19:30,FM7GT7000C900006C6,,远程服务器返回错误: (400) 错误的请求。  {"errors":["This WIP cannot start at any route step at this resource."]}
+2023-04-18 10:19:41,FM7GT80002H00006C6,,远程服务器返回错误: (400) 错误的请求。  {"errors":["This WIP cannot start at any route step at this resource."]}

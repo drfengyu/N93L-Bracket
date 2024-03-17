@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nut1追溯系统", "Nut1追溯系统\Nut1追溯系统.csproj", "{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcComm", "PlcComm\PlcComm.csproj", "{9CFAE265-8084-42CE-97B2-5E8C38BAEEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision", "Vision\Vision.csproj", "{EEF84B6E-AD88-408F-927B-C73CB408753C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6DAA6E-CCF4-4509-BB63-B0082D16E45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFAE265-8084-42CE-97B2-5E8C38BAEEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFAE265-8084-42CE-97B2-5E8C38BAEEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFAE265-8084-42CE-97B2-5E8C38BAEEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFAE265-8084-42CE-97B2-5E8C38BAEEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF84B6E-AD88-408F-927B-C73CB408753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF84B6E-AD88-408F-927B-C73CB408753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF84B6E-AD88-408F-927B-C73CB408753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF84B6E-AD88-408F-927B-C73CB408753C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9CAE2C5-8C19-49E1-912A-6260CA466830}
+	EndGlobalSection
+EndGlobal
